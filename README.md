@@ -4,6 +4,8 @@
 
 # Table of Contents
 * [PROV-O Class Mapping](#prov-o-class-mapping)
+  * [PROV-O Core Class Mapping](#prov-o-core-class-mapping)
+* [PROV-O Property Mapping](#prov-o-property-mapping)
 
 ## PROV-O Class Mapping
 
