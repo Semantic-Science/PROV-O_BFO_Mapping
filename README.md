@@ -2,6 +2,9 @@
 
 * Placeholder URI base used for demarcating the mapped terms
 
+# Table of Contents
+* [PROV-O Class Mapping](#prov-o-class-mapping)
+
 ## PROV-O Class Mapping
 
 ### PROV-O Core Class Mapping
