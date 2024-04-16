@@ -36,3 +36,10 @@ Built atop the Core category of terms, PROV-O Expanded terms allow for more fine
 ### PROV-O Expanded Property Mapping
 
 ### PROV-O Qualified Property Mapping
+
+# Not By AI
+![](notbyai.png)
+
+https://notbyai.fyi/
+
+Written 100% by humans.
