@@ -1,1 +1,1 @@
-# PROV-O_BFO_Mapping
+# PROV-O BFO Mapping
