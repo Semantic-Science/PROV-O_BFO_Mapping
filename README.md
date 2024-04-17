@@ -10,6 +10,7 @@ Both the PROV model and BFO can be had in various serializations, e.g., XML, OWL
 * Placeholder URI base used for demarcating the mapped terms
 
 # Table of Contents
+* [Mapping Details](#mapping-details)
 * [PROV-O Class Mapping](#prov-o-class-mapping)
   * [PROV-O Core Class Mapping](#prov-o-core-class-mapping)
   * [PROV-O Expanded Class Mapping](#prov-o-expanded-class-mapping)
@@ -18,6 +19,13 @@ Both the PROV model and BFO can be had in various serializations, e.g., XML, OWL
   * [PROV-O Core Property Mapping](#prov-o-core-property-mapping)
   * [PROV-O Expanded Property Mapping](#prov-o-expanded-property-mapping)
   * [PROV-O Qualified Property Mapping](#prov-o-qualified-property-mapping)
+
+## Mapping Details
+* All PROV-O classes will be mapped to the closest equivalent BFO/CCO class, asserted as sub-classes of the closest parent BFO/CCO class, or otherwise de-scribed as a transformation rule
+* All PROV-O object and data properties (i.e., relations or predicates) will be mapped to the closest equivalent BFO/CCO property, or otherwise asserted as sub-properties of the closest parent BFO/CCO property 
+* Instances (owl:NamedIndividuals) are ignored for the sake of simplicity
+* Annotation properties are ignored for the sake of simplicity
+* No OWL reasoning is performed, as the mapping is preliminary and, there-fore, speculative
 
 ## PROV-O Class Mapping
 
