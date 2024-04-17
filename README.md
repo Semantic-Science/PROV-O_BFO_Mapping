@@ -34,6 +34,12 @@ The mapping from PROV to BFO is not performed with any specific software tool, o
 ### PROV-O Core Class Mapping
 The mapping begins with the three Core, or “Starting Point” classes of PROV-O. The Core classes are the basis of PROV-O, allowing for the creation of simple provenance descriptions.
 
+| Core PROV-O Class | Equivalence or Transformation Rule |
+|-------------------|------------------------------------|
+| Activity          | equivalentTo bfo:Process           |
+| Agent             | Introduce new subclass of bfo:Role |
+| Entity            | equivalentTo bfo:Continuant        |
+
 ### PROV-O Expanded Class Mapping
 Built atop the Core category of terms, PROV-O Expanded terms allow for more fine-grained provenance descriptions.
 
