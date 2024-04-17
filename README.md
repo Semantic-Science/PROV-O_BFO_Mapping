@@ -1,7 +1,7 @@
 # PROV-O BFO Mapping
-PROV is to be mapped to, or extended from, the BFO/CCO taxonomy, for the pur-pose of elevating provenance representation out of the old form, and into an ISO/IEC compliant one.
+PROV is to be mapped to, or extended from, the BFO/CCO taxonomy, for the purpose of elevating provenance representation out of the old form, and into an ISO/IEC compliant one.
 
-Both the PROV model and BFO can be had in various serializations, e.g., XML, OWL, etc. BFO is also serialized in Common Logic (CL), which possesses the full expressivity of FOL [36]. For the purpose of the present paper, the OWL serializations of PROV and BFO are used, because the rendering of selected statements in the Terse Triple Language (TTL) format is amenable for both understanding and brevity; moreover, the CCO are only found in TTL format; so, OWL is most useful here. Fol-lowing are the versions of each ontology utilized in this mapping:
+Both the PROV model and BFO can be had in various serializations, e.g., XML, OWL, etc. BFO is also serialized in Common Logic (CL), which possesses the full expressivity of FOL. For the purpose of the present paper, the OWL serializations of PROV and BFO are used, because the rendering of selected statements in the Terse Triple Language (TTL) format is amenable for both understanding and brevity; moreover, the CCO are only found in TTL format; so, OWL is most useful here. Following are the versions of each ontology utilized in this mapping:
 
 *	PROV-O: recommendation version 2013-04-30
 *	BFO: 2020, from 2024-01-29
@@ -21,11 +21,11 @@ Both the PROV model and BFO can be had in various serializations, e.g., XML, OWL
   * [PROV-O Qualified Property Mapping](#prov-o-qualified-property-mapping)
 
 ## Mapping Details
-* All PROV-O classes will be mapped to the closest equivalent BFO/CCO class, asserted as sub-classes of the closest parent BFO/CCO class, or otherwise de-scribed as a transformation rule
+* All PROV-O classes will be mapped to the closest equivalent BFO/CCO class, asserted as sub-classes of the closest parent BFO/CCO class, or otherwise described as a transformation rule
 * All PROV-O object and data properties (i.e., relations or predicates) will be mapped to the closest equivalent BFO/CCO property, or otherwise asserted as sub-properties of the closest parent BFO/CCO property 
 * Instances (owl:NamedIndividuals) are ignored for the sake of simplicity
 * Annotation properties are ignored for the sake of simplicity
-* No OWL reasoning is performed, as the mapping is preliminary and, there-fore, speculative
+* No OWL reasoning is performed, as the mapping is preliminary and, therefore, speculative
 
 ## PROV-O Class Mapping
 
