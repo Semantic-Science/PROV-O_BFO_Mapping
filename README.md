@@ -43,6 +43,16 @@ The mapping begins with the three Core, or “Starting Point” classes of PROV-
 ### PROV-O Expanded Class Mapping
 Built atop the Core category of terms, PROV-O Expanded terms allow for more fine-grained provenance descriptions.
 
+| Expanded PROV-O Class | Equivalence or Transformation Rule                              |
+|-----------------------|-----------------------------------------------------------------|
+| Organization          | equivalentTo cco:Organization                                   |
+| Person                | equivalentTo cco:Person                                         |
+| SoftwareAgent         | Introduce new sub-class of cco:InformationProcessingArtifact    |
+| Bundle                | Introduce new sub-class of bfo:Continuant                       |
+| Collection            | equivalentTo bfo:0000115 min 1 bfo:Continuant                   |
+| EmptyCollection       | equivalentTo bfo:0000115 max 0 bfo:Continuant                   |
+| Location              | Introduce new sub-class of cco:DesignativeInformationContentEntity |
+
 ### PROV-O Qualified Class Mapping
 
 ## PROV-O Property Mapping
