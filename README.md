@@ -34,24 +34,24 @@ The mapping from PROV to BFO is not performed with any specific software tool, o
 ### PROV-O Core Class Mapping
 The mapping begins with the three Core, or “Starting Point” classes of PROV-O. The Core classes are the basis of PROV-O, allowing for the creation of simple provenance descriptions.
 
-| Core PROV-O Class | Equivalence or Transformation Rule |
-|-------------------|------------------------------------|
-| Activity          | equivalentTo bfo:Process           |
-| Agent             | Introduce new subclass of bfo:Role |
-| Entity            | equivalentTo bfo:Continuant        |
+| Core PROV-O Class | Equivalence or Transformation Rule              |
+|-------------------|-------------------------------------------------|
+| Activity          | equivalentTo bfo:Process                        |
+| Agent             | Introduce as new subclass of bfo:0000023 (Role) |
+| Entity            | equivalentTo bfo:Continuant                     |
 
 ### PROV-O Expanded Class Mapping
 Built atop the Core category of terms, PROV-O Expanded terms allow for more fine-grained provenance descriptions.
 
-| Expanded PROV-O Class | Equivalence or Transformation Rule                              |
-|-----------------------|-----------------------------------------------------------------|
-| Organization          | equivalentTo cco:Organization                                   |
-| Person                | equivalentTo cco:Person                                         |
-| SoftwareAgent         | Introduce new sub-class of cco:InformationProcessingArtifact    |
-| Bundle                | Introduce new sub-class of bfo:Continuant                       |
-| Collection            | equivalentTo bfo:0000115 min 1 bfo:Continuant                   |
-| EmptyCollection       | equivalentTo bfo:0000115 max 0 bfo:Continuant                   |
-| Location              | Introduce new sub-class of cco:DesignativeInformationContentEntity |
+| Expanded PROV-O Class | Equivalence or Transformation Rule                                    |
+|-----------------------|-----------------------------------------------------------------------|
+| Organization          | equivalentTo cco:Organization                                         |
+| Person                | equivalentTo cco:Person                                               |
+| SoftwareAgent         | Introduce as new sub-class of cco:InformationProcessingArtifact       |
+| Bundle                | Introduce as new sub-class of bfo:0000002 (Continuant)                |
+| Collection            | equivalentTo bfo:0000115 min 1 bfo:0000002 (Continuant)               |
+| EmptyCollection       | equivalentTo bfo:0000115 max 0 bfo:0000002 (Continuant)               |
+| Location              | Introduceas  new sub-class of cco:DesignativeInformationContentEntity |
 
 ### PROV-O Qualified Class Mapping
 
@@ -59,7 +59,38 @@ Built atop the Core category of terms, PROV-O Expanded terms allow for more fine
 
 ### PROV-O Core Property Mapping
 
+| Core PROV-O Property | Equivalence or Transformation Rule                             |
+|----------------------|----------------------------------------------------------------|
+| wasGeneratedBy       | Introduce as new sub-property of bfo:0000056 (participates in) |
+| wasDerivedFrom       | Import from PROV-O                                             |
+| wasAttributedTo      | Not directly mappable                                          |
+| startedAtTime        | Introduce as new sub-property of cco:has_datetime_value        |
+| used                 | Import from PROV-O                                             |
+| wasInformedBy        | Import from PROV-O                                             |
+| endedAtTime          | Introduce as new sub-property of cco:has_datetime_value        |
+| wasAssociatedWith    | Introduce as new sub-property of bfo:0000056 (participates in) |
+| actedOnBehalfOf      | Import from PROV-O                                             |
+
 ### PROV-O Expanded Property Mapping
+
+| Expanded PROV-O Property | Equivalence or Transformation Rule                                             |
+|---------------------------|-------------------------------------------------------------------------------|
+| alternateOf               | Import from PROV-O                                                            |
+| specializationOf          | Import from PROV-O                                                            |
+| generatedAtTime           | Introduce new sub-property of cco:has_datetime_value                          |
+| hadPrimarySource          | Import from PROV-O                                                            |
+| value                     | Introduce new data property and set all CCO has_x_value as its sub-properties |
+| wasQuotedFrom             | Import from PROV-O                                                            |
+| wasRevisionOf             | Import from PROV-O                                                            |
+| invalidatedAtTime         | Introduce new sub-property of cco:has_datetime_value                          |
+| wasInvalidatedBy          | Import from PROV-O                                                            |
+| hadMember                 | owl:equivalentProperty bfo:0000115 (has member part)                          |
+| wasStartedBy              | Import from PROV-O                                                            |
+| wasEndedBy                | Import from PROV-O                                                            |
+| invalidated               | Import from PROV-O                                                            |
+| influenced                | Import from PROV-O                                                            |
+| atLocation                | Import from PROV-O                                                            |
+| generated                 | Introduce new sub-property of bfo:0000057 (has participant)                   |
 
 ### PROV-O Qualified Property Mapping
 
