@@ -60,7 +60,7 @@ The mapping of PROV-O qualified classes is very speculative and requires iterati
 
 | Qualified PROV-O Class | Equivalence or Transformation Rule |
 |------------------------|------------------------------------|
-| Influence              |                                    |
+| Influence              | Not directly mappable              |
 | EntityInfluence        |                                    |
 | Usage                  |                                    |
 | Start                  |                                    |
@@ -80,6 +80,8 @@ The mapping of PROV-O qualified classes is very speculative and requires iterati
 | Delegation             |                                    |
 | InstantaneousEvent     |                                    |
 | Role                   |                                    |
+
+* Influence is not directly mappable because it is a "broad" term, i.e., an organizational term used to group its sub-influences. If it is to be mapped, it is likely placed best under bfo:0000020 (Specifically Dependent Continuant), perhaps further under bfo:0000017 (Realizable Entity).
 
 ## PROV-O Property Mapping
 
@@ -124,20 +126,20 @@ The mapping of PROV-O qualified properties is very speculative and requires iter
 | Qualified PROV-O Property     | Equivalence or Transformation Rule |
 |-------------------------------|------------------------------------|
 | wasInfluencedBy               |                                    |
-| qualifiedInfluence            |                                    |
-| qualifiedGeneration           |                                    |
-| qualifiedDerivation           |                                    |
-| qualifiedPrimarySource        |                                    |
-| qualifiedQuotation            |                                    |
-| qualifiedRevision             |                                    |
-| qualifiedAttribution          |                                    |
-| qualifiedInvalidation         |                                    |
-| qualifiedStart                |                                    |
-| qualifiedUsage                |                                    |
-| qualifiedCommunication        |                                    |
-| qualifiedAssociation          |                                    |
-| qualifiedEnd                  |                                    |
-| qualifiedDelegation           |                                    |
+| qualifiedInfluence            | Import from PROV-O                 |
+| qualifiedGeneration           | Import from PROV-O                 |
+| qualifiedDerivation           | Import from PROV-O                 |
+| qualifiedPrimarySource        | Import from PROV-O                 |
+| qualifiedQuotation            | Import from PROV-O                 |
+| qualifiedRevision             | Import from PROV-O                 |
+| qualifiedAttribution          | Import from PROV-O                 |
+| qualifiedInvalidation         | Import from PROV-O                 |
+| qualifiedStart                | Import from PROV-O                 |
+| qualifiedUsage                | Import from PROV-O                 |
+| qualifiedCommunication        | Import from PROV-O                 |
+| qualifiedAssociation          | Import from PROV-O                 |
+| qualifiedEnd                  | Import from PROV-O                 |
+| qualifiedDelegation           | Import from PROV-O                 |
 | influencer                    |                                    |
 | entity                        |                                    |
 | hadUsage                      |                                    |
