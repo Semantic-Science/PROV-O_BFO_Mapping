@@ -7,7 +7,7 @@ Both the PROV model and BFO can be had in various serializations, e.g., XML, OWL
 *	BFO: 2020, from 2024-01-29
 *	CCO: 1.5, from 2024-02-14
 
-See the mapping paper, [mapping.pdf'](mapping.pdf).
+See the mapping paper, [mapping.pdf](mapping.pdf).
 
 * Placeholder URI base used for demarcating the mapped terms
 
