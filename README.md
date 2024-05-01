@@ -55,6 +55,29 @@ Built atop the Core category of terms, PROV-O Expanded terms allow for more fine
 
 ### PROV-O Qualified Class Mapping
 
+| Qualified PROV-O Class | Equivalence or Transformation Rule |
+|------------------------|------------------------------------|
+| Influence              |                                    |
+| EntityInfluence        |                                    |
+| Usage                  |                                    |
+| Start                  |                                    |
+| End                    |                                    |
+| Derivation             |                                    |
+| PrimarySource          |                                    |
+| Quotation              |                                    |
+| Revision               |                                    |
+| ActivityInfluence      |                                    |
+| Generation             |                                    |
+| Communication          |                                    |
+| Invalidation           |                                    |
+| AgentInfluence         |                                    |
+| Attribution            |                                    |
+| Association            |                                    |
+| Plan                   |                                    |
+| Delegation             |                                    |
+| InstantaneousEvent     |                                    |
+| Role                   |                                    |
+
 ## PROV-O Property Mapping
 
 ### PROV-O Core Property Mapping
@@ -93,6 +116,34 @@ Built atop the Core category of terms, PROV-O Expanded terms allow for more fine
 | generated                 | Introduce new sub-property of bfo:0000057 (has participant)                   |
 
 ### PROV-O Qualified Property Mapping
+
+| Qualified PROV-O Property     | Equivalence or Transformation Rule |
+|-------------------------------|------------------------------------|
+| wasInfluencedBy               |                                    |
+| qualifiedInfluence            |                                    |
+| qualifiedGeneration           |                                    |
+| qualifiedDerivation           |                                    |
+| qualifiedPrimarySource        |                                    |
+| qualifiedQuotation            |                                    |
+| qualifiedRevision             |                                    |
+| qualifiedAttribution          |                                    |
+| qualifiedInvalidation         |                                    |
+| qualifiedStart                |                                    |
+| qualifiedUsage                |                                    |
+| qualifiedCommunication        |                                    |
+| qualifiedAssociation          |                                    |
+| qualifiedEnd                  |                                    |
+| qualifiedDelegation           |                                    |
+| influencer                    |                                    |
+| entity                        |                                    |
+| hadUsage                      |                                    |
+| hadGeneration                 |                                    |
+| activity                      |                                    |
+| agent                         |                                    |
+| hadPlan                       |                                    |
+| hadActivity                   |                                    |
+| atTime                        |                                    |
+| hadRole                       |                                    |
 
 # Not By AI
 ![](notbyai.png)
