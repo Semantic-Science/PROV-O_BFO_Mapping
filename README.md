@@ -7,6 +7,8 @@ Both the PROV model and BFO can be had in various serializations, e.g., XML, OWL
 *	BFO: 2020, from 2024-01-29
 *	CCO: 1.5, from 2024-02-14
 
+See the mapping paper, [mapping.pdf'](mapping.pdf).
+
 * Placeholder URI base used for demarcating the mapped terms
 
 # Table of Contents
@@ -43,17 +45,18 @@ The mapping begins with the three Core, or “Starting Point” classes of PROV-
 ### PROV-O Expanded Class Mapping
 Built atop the Core category of terms, PROV-O Expanded terms allow for more fine-grained provenance descriptions.
 
-| Expanded PROV-O Class | Equivalence or Transformation Rule                                    |
-|-----------------------|-----------------------------------------------------------------------|
-| Organization          | equivalentTo cco:Organization                                         |
-| Person                | equivalentTo cco:Person                                               |
-| SoftwareAgent         | Introduce as new sub-class of cco:InformationProcessingArtifact       |
-| Bundle                | Introduce as new sub-class of bfo:0000002 (Continuant)                |
-| Collection            | equivalentTo bfo:0000115 min 1 bfo:0000002 (Continuant)               |
-| EmptyCollection       | equivalentTo bfo:0000115 max 0 bfo:0000002 (Continuant)               |
-| Location              | Introduceas  new sub-class of cco:DesignativeInformationContentEntity |
+| Expanded PROV-O Class | Equivalence or Transformation Rule                                     |
+|-----------------------|------------------------------------------------------------------------|
+| Organization          | equivalentTo cco:Organization                                          |
+| Person                | equivalentTo cco:Person                                                |
+| SoftwareAgent         | Introduce as new sub-class of cco:InformationProcessingArtifact        |
+| Bundle                | Introduce as new sub-class of bfo:0000002 (Continuant)                 |
+| Collection            | equivalentTo bfo:0000115 min 1 bfo:0000002 (Continuant)                |
+| EmptyCollection       | equivalentTo bfo:0000115 max 0 bfo:0000002 (Continuant)                |
+| Location              | Introduce as  new sub-class of cco:DesignativeInformationContentEntity |
 
 ### PROV-O Qualified Class Mapping
+The mapping of PROV-O qualified classes is very speculative and requires iterative feedback.
 
 | Qualified PROV-O Class | Equivalence or Transformation Rule |
 |------------------------|------------------------------------|
@@ -116,6 +119,7 @@ Built atop the Core category of terms, PROV-O Expanded terms allow for more fine
 | generated                 | Introduce new sub-property of bfo:0000057 (has participant)                   |
 
 ### PROV-O Qualified Property Mapping
+The mapping of PROV-O qualified properties is very speculative and requires iterative feedback.
 
 | Qualified PROV-O Property     | Equivalence or Transformation Rule |
 |-------------------------------|------------------------------------|
