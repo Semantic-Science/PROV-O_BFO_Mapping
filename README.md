@@ -53,7 +53,7 @@ Built atop the Core category of terms, PROV-O Expanded terms allow for more fine
 | Bundle                | Introduce as new sub-class of bfo:0000002 (Continuant)                 |
 | Collection            | equivalentTo bfo:0000115 min 1 bfo:0000002 (Continuant)                |
 | EmptyCollection       | equivalentTo bfo:0000115 max 0 bfo:0000002 (Continuant)                |
-| Location              | Introduce as  new sub-class of cco:DesignativeInformationContentEntity |
+| Location              | Introduce as new sub-class of cco:DesignativeInformationContentEntity |
 
 ### PROV-O Qualified Class Mapping
 The mapping of PROV-O qualified classes is very speculative and requires iterative feedback.
