@@ -81,7 +81,7 @@ The mapping of PROV-O qualified classes is very speculative and requires iterati
 | InstantaneousEvent     | Needs input from others            |
 | Role                   | Needs input from others            |
 
-* Influence is not directly mappable because it is a "broad" term, i.e., an organizational term used to group its sub-influences. If it is to be mapped, it is likely placed best under bfo:0000020 (Specifically Dependent Continuant), perhaps further under bfo:0000017 (Realizable Entity).
+* Influence is likely not directly mappable because it is a "broad" term, i.e., an organizational term used to group its sub-influences. If it is to be mapped, it is likely placed best under bfo:0000020 (Specifically Dependent Continuant), perhaps further under bfo:0000017 (Realizable Entity).
 
 ## PROV-O Property Mapping
 
