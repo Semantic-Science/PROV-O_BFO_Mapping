@@ -60,26 +60,26 @@ The mapping of PROV-O qualified classes is very speculative and requires iterati
 
 | Qualified PROV-O Class | Equivalence or Transformation Rule |
 |------------------------|------------------------------------|
-| Influence              | Not directly mappable              |
-| EntityInfluence        |                                    |
-| Usage                  |                                    |
-| Start                  |                                    |
-| End                    |                                    |
-| Derivation             |                                    |
-| PrimarySource          |                                    |
-| Quotation              |                                    |
-| Revision               |                                    |
-| ActivityInfluence      |                                    |
-| Generation             |                                    |
-| Communication          |                                    |
-| Invalidation           |                                    |
-| AgentInfluence         |                                    |
-| Attribution            |                                    |
-| Association            |                                    |
-| Plan                   |                                    |
-| Delegation             |                                    |
-| InstantaneousEvent     |                                    |
-| Role                   |                                    |
+| Influence              | Needs input from others            |
+| EntityInfluence        | Needs input from others            |
+| Usage                  | Needs input from others            |
+| Start                  | Needs input from others            |
+| End                    | Needs input from others            |
+| Derivation             | Needs input from others            |
+| PrimarySource          | Needs input from others            |
+| Quotation              | Needs input from others            |
+| Revision               | Needs input from others            |
+| ActivityInfluence      | Needs input from others            |
+| Generation             | Needs input from others            |
+| Communication          | Needs input from others            |
+| Invalidation           | Needs input from others            |
+| AgentInfluence         | Needs input from others            |
+| Attribution            | Needs input from others            |
+| Association            | Needs input from others            |
+| Plan                   | Needs input from others            |
+| Delegation             | Needs input from others            |
+| InstantaneousEvent     | Needs input from others            |
+| Role                   | Needs input from others            |
 
 * Influence is not directly mappable because it is a "broad" term, i.e., an organizational term used to group its sub-influences. If it is to be mapped, it is likely placed best under bfo:0000020 (Specifically Dependent Continuant), perhaps further under bfo:0000017 (Realizable Entity).
 
@@ -125,31 +125,31 @@ The mapping of PROV-O qualified properties is very speculative and requires iter
 
 | Qualified PROV-O Property     | Equivalence or Transformation Rule |
 |-------------------------------|------------------------------------|
-| wasInfluencedBy               |                                    |
-| qualifiedInfluence            | Import from PROV-O                 |
-| qualifiedGeneration           | Import from PROV-O                 |
-| qualifiedDerivation           | Import from PROV-O                 |
-| qualifiedPrimarySource        | Import from PROV-O                 |
-| qualifiedQuotation            | Import from PROV-O                 |
-| qualifiedRevision             | Import from PROV-O                 |
-| qualifiedAttribution          | Import from PROV-O                 |
-| qualifiedInvalidation         | Import from PROV-O                 |
-| qualifiedStart                | Import from PROV-O                 |
-| qualifiedUsage                | Import from PROV-O                 |
-| qualifiedCommunication        | Import from PROV-O                 |
-| qualifiedAssociation          | Import from PROV-O                 |
-| qualifiedEnd                  | Import from PROV-O                 |
-| qualifiedDelegation           | Import from PROV-O                 |
-| influencer                    |                                    |
-| entity                        |                                    |
-| hadUsage                      |                                    |
-| hadGeneration                 |                                    |
-| activity                      |                                    |
-| agent                         |                                    |
-| hadPlan                       |                                    |
-| hadActivity                   |                                    |
-| atTime                        |                                    |
-| hadRole                       |                                    |
+| wasInfluencedBy               | Needs input from others            |
+| qualifiedInfluence            | Needs input from others            |
+| qualifiedGeneration           | Needs input from others            |
+| qualifiedDerivation           | Needs input from others            |
+| qualifiedPrimarySource        | Needs input from others            |
+| qualifiedQuotation            | Needs input from others            |
+| qualifiedRevision             | Needs input from others            |
+| qualifiedAttribution          | Needs input from others            |
+| qualifiedInvalidation         | Needs input from others            |
+| qualifiedStart                | Needs input from others            |
+| qualifiedUsage                | Needs input from others            |
+| qualifiedCommunication        | Needs input from others            |
+| qualifiedAssociation          | Needs input from others            |
+| qualifiedEnd                  | Needs input from others            |
+| qualifiedDelegation           | Needs input from others            |
+| influencer                    | Needs input from others            |
+| entity                        | Needs input from others            |
+| hadUsage                      | Needs input from others            |
+| hadGeneration                 | Needs input from others            |
+| activity                      | Needs input from others            |
+| agent                         | Needs input from others            |
+| hadPlan                       | Needs input from others            |
+| hadActivity                   | Needs input from others            |
+| atTime                        | Needs input from others            |
+| hadRole                       | Needs input from others            |
 
 # Not By AI
 ![](notbyai.png)
