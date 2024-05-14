@@ -35,10 +35,8 @@ The mapping from PROV to BFO is not performed with any specific software tool, o
 Mapped classes/properties can be found by looking in the TTL source file (as BFO and the CCO are imported, not duplicated), or by querying, either with a lexical search or in SPARQL:
 
 * Base IRI for this project is the URL of this repo: ```https://github.com/Semantic-Science/PROV-O_BFO_Mapping``` (search for that for any new sub-classes and properties)
-* Mappings with the equivalentTo properties are to the respective PROV-O class; these have the base IRI ```http://www.w3.org/ns/prov#```
-  * owl:equivalentClass annotation property on BFO/CCO classes
-  * owl:equivalentProperty annotation property on BFO/CCO properties
-
+* Mappings with the equivalentClass/equivalentProperty properties are to the respective PROV-O class; these have the base IRI ```http://www.w3.org/ns/prov#```
+  * The annotation property rdfs:seeAlso is used to maintain the links 
 
 ## PROV-O Class Mapping
 
